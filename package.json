@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "react-native-apple-sign-in1@1.0.6",
+      "react-native-apple-sign-in1@1.0.7",
       "F:\\App2\\App"
     ]
   ],
-  "_from": "react-native-apple-sign-in1@1.0.6",
-  "_id": "react-native-apple-sign-in1@1.0.6",
+  "_from": "react-native-apple-sign-in1@1.0.7",
+  "_id": "react-native-apple-sign-in1@1.0.7",
   "_inBundle": false,
   "_integrity": "sha1-wZfJr+IYid5o3y9jp90BYutvxBE=",
   "_location": "/react-native-apple-sign-in1",
@@ -14,18 +14,18 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "react-native-apple-sign-in1@1.0.6",
+    "raw": "react-native-apple-sign-in1@1.0.7",
     "name": "react-native-apple-sign-in1",
     "escapedName": "react-native-apple-sign-in1",
-    "rawSpec": "1.0.6",
+    "rawSpec": "1.0.7",
     "saveSpec": null,
-    "fetchSpec": "1.0.6"
+    "fetchSpec": "1.0.7"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/react-native-apple-sign-in1/download/react-native-apple-sign-in1-1.0.6.tgz",
-  "_spec": "1.0.6",
+  "_resolved": "http://registry.npm.taobao.org/react-native-apple-sign-in1/download/react-native-apple-sign-in1-1.0.7.tgz",
+  "_spec": "1.0.7",
   "_where": "F:\\App2\\App",
   "author": {
     "name": "Demon",
@@ -36,7 +36,7 @@
   },
   "name": "react-native-apple-sign-in1",
   "title": "React Native Apple Sign In",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react-native native module for Apple Login",
   "main": "index.js",
   "scripts": {

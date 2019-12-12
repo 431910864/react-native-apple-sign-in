@@ -11,6 +11,7 @@
 RCT_EXPORT_MODULE()
 
 -(NSDictionary *)constantsToExport API_AVAILABLE(ios(13.0)) {
+if (@available(iOS 13.0, *)) {
   NSDictionary* scopes = @{@"FULL_NAME": ASAuthorizationScopeFullName, @"EMAIL": ASAuthorizationScopeEmail};
   NSDictionary* operations = @{
     @"LOGIN": ASAuthorizationOperationLogin,
@@ -35,6 +36,9 @@ RCT_EXPORT_MODULE()
            @"CredentialState": credentialStates,
            @"UserDetectionStatus": userDetectionStatuses
            };
+} else {
+    return @{};
+}
 }
 
 
